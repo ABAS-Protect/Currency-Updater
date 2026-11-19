@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="sv-SE" original="ABAS Currency Updater.g.xlf">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 4080245284 - Method 484643215 - NamedType 3415091118" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Local Currency (LCY Code) must be defined in General Ledger Setup.</source>
+          <target>Lokal valuta (LCY) måste anges i inställningarna.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Live Currency Rate Updater - Method UpdateLiveExchangeRates - NamedType CurrencyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4080245284 - Method 484643215 - NamedType 3681695477" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed to connect to the currency exchange rate API.</source>
+          <target>Kunde inte ansluta till valuta-API:et.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Live Currency Rate Updater - Method UpdateLiveExchangeRates - NamedType ConnectErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4080245284 - Method 484643215 - NamedType 2373604540" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed to parse JSON response from currency API.</source>
+          <target>Kunde inte tolka JSON från valuta-API:et.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Live Currency Rate Updater - Method UpdateLiveExchangeRates - NamedType ParseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4080245284 - Method 484643215 - NamedType 2197075555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API returned HTTP status %1: %2</source>
+          <target>API:et returnerade HTTP-status %1: %2</target>
+          <note from="Developer" annotates="general" priority="2">%1 = HTTP Status Code, %2 = Reason Phrase</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Live Currency Rate Updater - Method UpdateLiveExchangeRates - NamedType HttpStatusErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4080245284 - Method 484643215 - NamedType 2717262602" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JSON response does not contain a "conversion_rates" object.</source>
+          <target>JSON-svaret innehöll inte obligatoriskt objekt "conversion_rates".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Live Currency Rate Updater - Method UpdateLiveExchangeRates - NamedType ResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4080245284 - Method 484643215 - NamedType 1471355834" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExchangeRate-API key is not configured. Please set it in Currencies setup.</source>
+          <target>Valuta-API är inte konfigurerat. Sätt i valutainställningarna.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Live Currency Rate Updater - Method UpdateLiveExchangeRates - NamedType MissingApiKeyErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3607286042 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set ExchangeRate-API Key</source>
+          <target>Sätt valuta-API-nyckel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ExchangeRate API Key Dialog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3607286042 - Control 1326045199 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter your ExchangeRate-API key.</source>
+          <target>Ange valuta-API-nyckel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ExchangeRate API Key Dialog - Control ApiKeyField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3607286042 - Control 1326045199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Key</source>
+          <target>API-nyckel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ExchangeRate API Key Dialog - Control ApiKeyField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 97778696 - Action 555138184 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4081634891">
+          <source>Store or update the ExchangeRate-API key in encrypted isolated storage.</source>
+          <target>Spara valuta-API-nyckel i isolerad lagring.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Currencies Live Rate Ext - Action SetExchangeRateApiKey - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 97778696 - Action 555138184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4081634891">
+          <source>Set ExchangeRate-API Key</source>
+          <target>Sätt valuta-API-nyckel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Currencies Live Rate Ext - Action SetExchangeRateApiKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 97778696 - Action 555138184 - Method 1377591017 - NamedType 557780680" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 97778696">
+          <source>ExchangeRate-API key has been updated.</source>
+          <target>Valuta-API-nyckeln uppdaterades.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Currencies Live Rate Ext - Action SetExchangeRateApiKey - Method OnAction - NamedType SavedMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 97778696 - Action 3070295836 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4081634891">
+          <source>Fetch the latest exchange rates from ExchangeRate-API immediately.</source>
+          <target>Hämta senaste valutakurser från valuta-API.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Currencies Live Rate Ext - Action UpdateLiveRatesNow - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 97778696 - Action 3070295836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4081634891">
+          <source>Update Live Exchange Rates</source>
+          <target>Uppdatera valutakurser.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Currencies Live Rate Ext - Action UpdateLiveRatesNow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 97778696 - Action 3070295836 - Method 1377591017 - NamedType 1556380518" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 97778696">
+          <source>Live exchange rates have been updated for %1.</source>
+          <target>Valutakurser uppdaterades för %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Today Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Currencies Live Rate Ext - Action UpdateLiveRatesNow - Method OnAction - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 503362014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Live Currency Rate Administration</source>
+          <target>Valutakursadministration</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Currency Rate Admin - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

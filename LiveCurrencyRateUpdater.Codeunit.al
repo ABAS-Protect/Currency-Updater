@@ -16,7 +16,7 @@ codeunit 50116 "Live Currency Rate Updater"
 
     trigger OnRun()
     begin
-        UpdateLiveExchangeRates();
+        this.UpdateLiveExchangeRates();
     end;
 
     procedure UpdateLiveExchangeRates()

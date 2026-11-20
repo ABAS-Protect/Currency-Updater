@@ -38,7 +38,7 @@ page 50117 "ExchangeRate API Key Dialog"
         RateUpdater: Codeunit "Live Currency Rate Updater";
     begin
         if CloseAction = Action::OK then
-            RateUpdater.SetApiKey(ApiKeyInput);
+            RateUpdater.SetApiKey(this.ApiKeyInput);
         exit(true);
     end;
 }

@@ -99,11 +99,6 @@ codeunit 50116 "Live Currency Rate Updater"
         exit('');
     end;
 
-    procedure HasApiKey(): Boolean
-    begin
-        exit(IsolatedStorage.Contains(this.GetStorageKeyName(), DataScope::Company));
-    end;
-
     local procedure GetStorageKeyName(): Text
     begin
         exit('ExchangeRateApi_Key');
